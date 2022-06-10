@@ -21,7 +21,7 @@ window.onload = function() {
             noun[x].charAt(noun[x].length - 1) === "d" &&
             gateway[y] === ".ed"
           ) {
-            var new_word = noun[x].substring(0, noun[x].length - 2);
+            var new_word = noun[x].substring(noun[x].length - 2);
             console.log(gateway[y]);
             link.push(pronoun[i] + adj[u] + new_word + gateway[y]);
           } else {
